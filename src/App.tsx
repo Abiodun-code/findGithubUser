@@ -1,11 +1,18 @@
-import React, { useState } from 'react'
+import React from 'react'
 import NavBar from './components/NavBar'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import UserInfo from './pages/userInfo'
 
 function App() {
 
   return (
     <div className='w-full h-auto'>
       <NavBar/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/:name" element={<UserInfo/>}/>
+      </Routes>
     </div>
   )
 }
