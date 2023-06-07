@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import { useContext } from "react"
 import { UsersContext } from "../hooks/useUsers"
 import { Link } from "react-router-dom"
 import { SlUserFollow, SlUserFollowing } from "react-icons/sl"

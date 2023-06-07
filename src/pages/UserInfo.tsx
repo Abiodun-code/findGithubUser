@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { Link, useLocation, useNavigate } from "react-router-dom"
 import { BsArrowLeft } from "react-icons/bs"
 import { SlUserFollow, SlUserFollowing } from "react-icons/sl"
@@ -50,7 +50,7 @@ const UserInfo = () => {
                       <p className="text-sm font-bold pl-1">{content.public_repos ? content.public_repos : 0}</p>
                     </span>
                   </div>
-                  <div className="bg-blue-600 p-4 max-w-[80%] lg:max-w-[50%] md:max-w-[70%] my-3 text-center rounded-full mx-auto">
+                  <div className="bg-blue-600 p-4 max-w-[80%] lg:max-w-[50%] md:max-w-[0%] my-3 text-center rounded-full mx-auto">
                     <Link to={`${content.html_url}`} className=" text-lg">View Profile on Github</Link>
                   </div>
                 </div>
