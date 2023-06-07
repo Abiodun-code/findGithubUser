@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import { useContext } from "react"
 import white from "../assets/white.png"
 import { BsFillSunFill, BsMoonFill } from "react-icons/bs"
 import { ThemeContext } from "../hooks/useTheme"

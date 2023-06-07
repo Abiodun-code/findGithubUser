@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from "react"
+import { useContext } from "react"
 import { BsSearch } from "react-icons/bs"
 import { UsersContext } from "../hooks/useUsers"
 

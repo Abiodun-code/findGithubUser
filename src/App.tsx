@@ -1,8 +1,7 @@
-import React from 'react'
 import NavBar from './components/NavBar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import UserInfo from './pages/userInfo'
+import UserInfo from './pages/UserInfo'
 
 function App() {
 

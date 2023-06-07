@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useRef, useState } from "react"
+import { createContext, useEffect, useRef, useState } from "react"
 import { childProps, usersProps } from "./types"
 
 export const UsersContext = createContext({} as usersProps)

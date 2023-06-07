@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import { useContext } from "react"
 import Users from "../components/Users"
 import Search from "../components/Search"
 import { UsersContext } from "../hooks/useUsers"
